@@ -168,21 +168,14 @@ int main() {
   cout << "Start chatting! Type 'exit' to quit.\n";
   ofstream history_out(history_file, ios::app);
 
-  string temp;
-
   while (true) {
     cout << "You: ";
-    cin >> temp;
-
-    if (temp == "exit") {
-      break;
-    }
+    cin.ignore();
 
     getline(cin, user_input);
 
-    if (user_input.empty()) {
-      cout << endl;
-      continue;
+    if (user_input == "exit") {
+      break;
     }
 
     history_out << "You: " << user_input << endl;

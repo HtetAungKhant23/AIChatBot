@@ -162,7 +162,7 @@ int main() {
   }
   history_in.close();
 
-  string apiKey = "AIzaSyAgFeXgTQDQxrnf7xJIUiCineG6QCn-px4";
+  string apiKey = "YOUR_API_KEY_HERE";
   string user_input;
 
   cout << "Start chatting! Type 'exit' to quit.\n";

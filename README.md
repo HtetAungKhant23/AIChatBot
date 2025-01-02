@@ -1,5 +1,7 @@
 # AI Chatbot
 
+#### Video Demo: <https://youtu.be/96rdAvVNIuY>
+
 ## Project Overview
 
 This project is a **Command-Line Interface (CLI) AI Chatbot** implemented in C++. It integrates the Gemini API for natural language generation and supports user authentication with registration and login features. Each user's chat history is stored and retrieved during subsequent logins, providing a personalized experience.
